@@ -1,0 +1,46 @@
+{%extends 'base.html'%}
+
+{%block title %}
+Main page
+{%endblock%}
+
+
+{%block main_body%}
+
+
+<div class="page-heading header-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>About Us</h1>
+          <span>We have over 10 years of experience</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="more-info about-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="more-info-content">
+            <div class="row">
+              <div class="col-md-6 align-self-center">
+                <div class="right-content">
+                  <h2>Get to know about <em>our company</em></h2>
+                  <p>Car Astana is a leading exporter of new vehicles. Car Astana was founded in 2012, and more than a decade of experience and expertise in dealing with various export markets and customers has made Car Astana the #1 exporter of new cars in Kazakhstan. We are ISO certified and are a trusted member of the Astana Chamber of Electronic Commerce. Offering hassle-free import of new cars from the comfort of our customers' homes, with a wide range of vehicles, friendly customer service and fast logistics solutions, we are Kazakhstan's most reliable source for car exports. The perfect place for you to find a car. Car Astana offers a wide range of Toyota, Lexus Mitsubishi and Nissan vehicles for customers from Asia, Middle East, Europe, Africa and South America. We also provide our customers with specialized transportation equipment such as ambulances, light and heavy trucks, cars and forklifts. </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                
+                <div class="left-image">
+                  <img src="{{url_for('static',filename='assets/images/photo_2022-11-10_13-44-10.jpg')}}" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{%endblock%}
