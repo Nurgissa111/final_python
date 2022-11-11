@@ -1,4 +1,4 @@
-from flas import Flask, render_template,flash,redirect,request, session, send_from_directory, url_for
+from flask import Flask, render_template,flash,redirect,request, session, send_from_directory, url_for
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import relationship
 from flask_uploads import UploadSet, IMAGES, configure_uploads
